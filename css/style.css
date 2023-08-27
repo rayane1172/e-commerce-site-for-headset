@@ -640,7 +640,7 @@ section.about .container .text {
 .product .container .support-image img {
     max-width: 100%;
     border-top-right-radius: 90px;
-    height: 100%;
+    /* height: 100%; */
 }
 
 /* last page */
@@ -652,8 +652,8 @@ section.about .container .text {
 
 .contact .container {
     display: flex;
-    /* justify-content: ; */
 
+    flex-wrap: wrap;
 }
 
 .contact .container .connect {
@@ -664,6 +664,7 @@ section.about .container .text {
 .contact .container .connect h2 {
     font-size: 2.5rem;
 }
+
 
 .contact .container .connect .icons-social {
     display: flex;
@@ -678,6 +679,7 @@ section.about .container .text {
     margin-top: 90px;
     margin-left: 150px;
     display: flex;
+    flex-wrap: wrap;
 }
 
 
@@ -699,6 +701,12 @@ section.about .container .text {
     color: white;
     font-weight: 600;
     text-shadow: 5px 5px black;
+}
+
+@media (max-width:765px) {
+    .contact .container .text .lien h2 {
+        font-size: 1rem;
+    }
 }
 
 .contact .container .text .social h3 {
