@@ -245,7 +245,7 @@ section.landing .container {
 }
 
 .landing .container .image img {
-    width: 480px;
+    width: 430px;
     max-width: 100%;
     transition: 0.4s;
     animation: casque-move 2s linear infinite alternate;
@@ -436,6 +436,8 @@ section.about {
     height: 100vh;
     display: flex;
     background-image: linear-gradient(-180deg, #76D0D0 15%, #75b2ceb5 44%, #afd9d5 71%, transparent);
+    padding-top: 100px;
+    padding-bottom: var(--main-padding);
 }
 
 section.about .container {
@@ -586,7 +588,8 @@ section.about .container .text {
 .product {
     height: 100vh;
     background-image: linear-gradient(to bottom, #76d0cf 30%, #75b2ce 60%, #afd9d5 90%, transparent);
-
+    margin-bottom: var(--main-padding);
+    padding-top: var(--main-padding);
 }
 
 .product .container {
@@ -647,11 +650,11 @@ section.about .container .text {
     height: 100vh;
     background-image: linear-gradient(to top, #76d0cf 30%, #75b2ce 60%, #afd9d5 90%, transparent);
     position: relative;
+    overflow: hidden;
 }
 
 .contact .container {
     display: flex;
-
     flex-wrap: wrap;
 }
 
